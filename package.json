@@ -1,0 +1,28 @@
+{
+  "name": "gee-shell",
+  "version": "0.1.0-pre",
+  "description": "Enhanced, promisified ShellJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Mario Gutierrez <mario@mgutz.com>",
+  "license": "MIT",
+  "dependencies": {
+    "shelljs": "~0.1.2",
+    "async": "~0.2.6",
+    "coffee-script": "~1.6.2",
+    "lodash": "~1.0.1",
+    "request": "~2.16.6",
+    "progress": "~0.1.0",
+    "tar.gz": "~0.1.1",
+    "unzip": "git://github.com/nearinfinity/node-unzip.git",
+    "tar": "~0.1.17",
+    "vow": "git://github.com/mgutz/jspromise.git"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.2",
+    "chai": "~1.5.0"
+  }
+}
